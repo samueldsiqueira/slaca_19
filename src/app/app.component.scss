@@ -1,33 +1,30 @@
 .app-container {
   display: grid;
-  grid-template-columns: 1vw 1vw 1vw 1vw;
-  grid-auto-rows: 100px;
+  grid-template-areas:
+    "side top"
+    "side page"
+    "side footer";
+  grid-template-columns: 220px 1fr;
+  grid-template-rows: 68px 1fr 181px;
+  min-height: 100vh;
+
   .top-navbar {
     border: solid 1px black;
-    grid-column-start: 100;
-    grid-column-end: 8;
-    grid-row-start: 1;
-    grid-row-end: 2;
+    grid-area: top;
   }
+
   .side-navbar {
     border: solid 1px green;
-    grid-column-start: 8;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 11;
+    grid-area: side;
   }
+
   .page-container {
     border: solid 1px orange;
-    grid-column-start: 100;
-    grid-column-end: 8;
-    grid-row-start: 2;
-    grid-row-end: 9;
+    grid-area: page;
   }
+
   .footer {
     border: solid 1px red;
-    grid-column-start: 100;
-    grid-column-end: 8;
-    grid-row-start: 9;
-    grid-row-end: 11;
+    grid-area: footer;
   }
 }
