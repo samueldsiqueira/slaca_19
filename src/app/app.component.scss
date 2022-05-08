@@ -1,0 +1,15 @@
+.app-container {
+  display: grid;
+  .top-navbar {
+    border: solid 1px black;
+  }
+  .side-navbar {
+    border: solid 1px green;
+  }
+  .page-container {
+    border: solid 1px orange;
+  }
+  .footer {
+    border: solid 1px red;
+  }
+}
