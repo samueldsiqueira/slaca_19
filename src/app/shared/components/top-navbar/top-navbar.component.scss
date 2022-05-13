@@ -14,22 +14,48 @@
   row-gap: 5px;
 
   .text-top {
-    .first-text {
+    .first-text,
+    p {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #725c5c;
+    }
+    .first-text,
+    h3 {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 26px;
+      color: #725c5c;
     }
     .secound-text {
     }
   }
   .control {
     #age_group {
+      font-family: "Quicksand";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      color: #333333;
     }
   }
 
   .login-user {
-    height: 68px;
-    width: 200px;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #333333;
   }
 }
 
 .picture-profile {
-  border-radius: 50%;
 }

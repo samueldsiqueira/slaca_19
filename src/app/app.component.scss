@@ -18,9 +18,18 @@
   grid-template-columns: 220px 1fr;
   grid-template-rows: 68px 1fr 181px;
   min-height: 100vh;
-
+  .subtitle {
+    margin-bottom: 30px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #ed7839;
+  }
   .top-navbar {
-    margin-left: 10px;
+    margin-left: 0px;
     grid-area: top;
     background: #fdf1eb;
   }
@@ -30,9 +39,19 @@
   }
 
   .page-container {
-    margin-left: 10px;
+    margin-left: 50px;
     grid-area: page;
-    margin-bottom: 40px;
+    margin-bottom: 500px;
+    width: 1058px;
+    height: 621px;
+    left: 0px;
+    top: 761px;
+    border: 1px solid #ececec;
+    border-radius: 3px;
+  }
+  .video-overlay {
+    display: flexbox;
+    flex-direction: column;
   }
 
   .footer {
