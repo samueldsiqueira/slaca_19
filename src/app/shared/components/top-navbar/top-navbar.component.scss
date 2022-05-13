@@ -1,5 +1,19 @@
 * {
   margin: 0px;
   padding: 0px;
+}
 
+.top-container {
+  display: flex;
+  padding: 10px;
+  min-height: 100vh;
+
+  .first-text {
+    display: inline;
+    margin: 0px;
+  }
+
+  .secound-text {
+    display: inline;
+  }
 }
