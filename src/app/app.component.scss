@@ -20,8 +20,8 @@
   min-height: 100vh;
 
   .top-navbar {
-    border: solid 1px black;
     grid-area: top;
+    background: #fdf1eb;
   }
 
   .side-navbar {
@@ -29,7 +29,6 @@
   }
 
   .page-container {
-    border: solid 1px orange;
     grid-area: page;
   }
 
