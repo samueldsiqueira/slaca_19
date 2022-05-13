@@ -4,16 +4,32 @@
 }
 
 .top-container {
-  display: flex;
-  padding: 10px;
+  margin: 0px 10px;
+  display: grid;
+  gap: 10px;
   min-height: 100vh;
+  grid-template-columns: 80% 1fr 1fr;
+  grid-template-rows: 68px 1fr;
+  column-gap: 5px;
+  row-gap: 5px;
 
-  .first-text {
-    display: inline;
-    margin: 0px;
+  .text-top {
+    .first-text {
+    }
+    .secound-text {
+    }
+  }
+  .control {
+    #age_group {
+    }
   }
 
-  .secound-text {
-    display: inline;
+  .login-user {
+    height: 68px;
+    width: 200px;
   }
+}
+
+.picture-profile {
+  border-radius: 50%;
 }
